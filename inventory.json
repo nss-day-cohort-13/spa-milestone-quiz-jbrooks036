@@ -5,9 +5,27 @@
       "model": "Rogue",
       "year": "2006",
       "price": "8999",
-      "color": "FireBrick",
+      "color": "Silver",
       "purchased": false,
       "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": "2004",
+      "price": "5999",
+      "color": "Cranberry",
+      "purchased": false,
+      "description": "This is an immaculate 2004 Toyota Corolla with only 190,000 miles on it. Standard transmission, CD and cassette player."
+    },
+    {
+      "make": "AMC",
+      "model": "Gremlin",
+      "year": "1974",
+      "price": "2999",
+      "color": "Blue",
+      "purchased": false,
+      "description": "This is a classic car with only 85000 miles on it. 5.0 Litre engine, 3-on-the-floor."
     }
   ]
 }
