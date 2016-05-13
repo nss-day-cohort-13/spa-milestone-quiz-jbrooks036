@@ -5,8 +5,8 @@ var CarLot = (function (CarLot) {
 
   // get the array of cars
   CarLot.getInventory = function () {
-      return inventory;
-    },
+    return inventory.cars;
+  },
 
   // load the cars from the JSON file into private array
   CarLot.loadInventory = function (callback) {
@@ -14,7 +14,6 @@ var CarLot = (function (CarLot) {
 
     inventoryLoader.addEventListener("load", function () {
       inventory = JSON.parse(this.responseText);
-      console.log("CarLot:17 / inventory = ", inventory);
       callback(inventory);
     });
 
@@ -22,7 +21,6 @@ var CarLot = (function (CarLot) {
     inventoryLoader.send();
   };
 
-  console.log("CarLot.js:25 / CarLot = ", CarLot);
   return CarLot;
 
 })(CarLot || {});
